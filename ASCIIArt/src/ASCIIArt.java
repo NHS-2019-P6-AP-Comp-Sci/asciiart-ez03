@@ -15,13 +15,34 @@
  */
 
 // YOU CODE HERE :) 
-
 public class ASCIIArt {
+	public static void lantern() {
+		System.out.println("   /\\");
+		System.out.println("  /  \\");
+		System.out.println("  |  |");
+	}
+	public static void house() {
+		System.out.println(" [  O ]"); 
+	}
+	public static void tower() {
+		System.out.println(" |    |");
+	}
+	public static void shore() {
+		System.out.println("-----");
+	}
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		System.out.println();
+		lantern();
+		house(); 
+		house(); 
+		tower();
+		tower();
+		tower();
+		tower(); 
+		System.out.print("      "); shore(); 
+		System.out.print("\t   "); shore();
+		System.out.print("\t\t"); shore();
+		System.out.println();
+		System.out.println("   ******************\n   AP CS lighthouse!!\n   ******************");
 	}
 }
